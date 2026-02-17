@@ -1,8 +1,10 @@
 # Plataforma Inteligente de Chamados - Power Platform
 
+## 📌 Visão Geral
+
 Projeto de arquitetura de solução utilizando Power Platform para modernização do processo de abertura e gestão de chamados internos.
 
-## Objetivo
+## 🎯 Objetivo
 
 Criar um fluxo inteligente que:
 
@@ -12,17 +14,36 @@ Criar um fluxo inteligente que:
 - Automatize encaminhamento com Power Automate
 - Disponibilize indicadores no Power BI
 
-## Componentes da Arquitetura
+## 🏗 Arquitetura da Solução
 
-- Power Apps (Interface)
-- SharePoint (Base de Dados)
-- Power Automate (Orquestração)
-- IA estilo Copilot (Assistente)
-- Power BI (Indicadores)
+Usuário  
+↓  
+Power Apps  
+↓  
+SharePoint  
+↓  
+Power Automate  
+↓  
+IA (Padronização e Classificação)  
+↓  
+Time Técnico  
+↓  
+Power BI (Indicadores)
 
-## Benefícios
+## 📊 Benefícios Esperados
 
 - Redução de retrabalho
-- Melhor comunicação negócio → técnico
+- Comunicação clara entre áreas
 - Monitoramento de SLA
 - Governança e rastreabilidade
+- Apoio de IA no processo
+
+## 🚀 Roadmap de Implementação
+
+- Fase 1 — Planejamento e Escopo
+- Fase 2 — Modelagem de Dados
+- Fase 3 — Desenvolvimento do App
+- Fase 4 — Automação
+- Fase 5 — Integração com IA
+- Fase 6 — Indicadores
+- Fase 7 — Testes e Consolidação
