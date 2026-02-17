@@ -1,0 +1,6 @@
+Fluxo:
+Gatilho: Novo item criado no SharePoint
+Ação: Processar texto da descrição
+Gerar campo “Descrição Técnica”
+Atualizar o item
+Enviar notificação ao time
