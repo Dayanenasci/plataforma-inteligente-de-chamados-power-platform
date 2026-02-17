@@ -1,0 +1,11 @@
+Patch(
+    Chamados,
+    Defaults(Chamados),
+    {
+        Titulo: Left(txtDescricao.Text, 50),
+        DescricaoNatural: txtDescricao.Text,
+        Prioridade: ddPrioridade.Selected.Value,
+        Status: "Aberto",
+        DataAbertura: Now()
+    }
+)
