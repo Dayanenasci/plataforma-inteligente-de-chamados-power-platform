@@ -1,0 +1,1 @@
+# plataforma-inteligente-de-chamados-power-platform
