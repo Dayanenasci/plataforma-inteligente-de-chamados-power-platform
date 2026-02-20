@@ -47,3 +47,17 @@ Power BI (Indicadores)
 - Fase 5 — Integração com IA
 - Fase 6 — Indicadores
 - Fase 7 — Testes e Consolidação
+
+
+
+## 🗺 Diagrama da Arquitetura
+
+```mermaid
+flowchart TD
+
+A[Usuário] --> B[Power Apps<br>Interface de Abertura]
+B --> C[SharePoint<br>Base Estruturada]
+C --> D[Power Automate<br>Fluxo Automatizado]
+D --> E[IA<br>Classificação e Padronização]
+E --> F[Time Técnico]
+F --> G[Power BI<br>Indicadores e SLA]
